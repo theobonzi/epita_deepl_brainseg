@@ -1,4 +1,4 @@
-# Segmentation de Structures Cérébrales dans des IRM Cérébrales 3D
+# 🧠 Segmentation de Structures Cérébrales dans des IRM Cérébrales 3D
 
 ## Introduction
 Ce projet porte sur la segmentation des structures cérébrales fondamentales dans des scans IRM 3D de cerveaux d'infants. Il utilise les données et le contexte du challenge [iSeg de la conférence MICCAI 2017](https://iseg2017.web.unc.edu).
