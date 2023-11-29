@@ -1,7 +1,7 @@
 # Segmentation de Structures Cérébrales dans des IRM Cérébrales 3D
 
 ## Introduction
-Ce projet porte sur la segmentation des structures cérébrales fondamentales dans des scans IRM 3D de cerveaux d'infants. Il utilise les données et le contexte du challenge iSeg de la conférence MICCAI 2017.
+Ce projet porte sur la segmentation des structures cérébrales fondamentales dans des scans IRM 3D de cerveaux d'infants. Il utilise les données et le contexte du challenge [iSeg de la conférence MICCAI 2017](https://iseg2017.web.unc.edu).
 
 > "The first year of life is a dynamic phase of postnatal brain development, characterized by rapid tissue growth and the development of cognitive and motor functions. This early period is crucial in many neurodevelopmental and neuropsychiatric disorders, such as schizophrenia and autism.
 > 
@@ -14,21 +14,8 @@ Développer un système capable de segmenter avec précision les images IRM en i
 - **Ensemble d'entraînement** : Comprend des scans IRM avec des annotations manuelles.
 - **Ensemble de test** : Contient des scans IRM à segmenter, sans annotations.
 
-## Utilisation
-Les instructions détaillées pour l'installation, la préparation des données et l'exécution du projet sont fournies.
-
 ## Étapes Générales du Projet
 1. **Comprendre les Données** : Explorer et visualiser les scans IRM.
 2. **Préparer les Données** : Organiser les données pour le traitement.
 3. **Construire et Entraîner le Modèle** : Développer un modèle pour la segmentation.
 4. **Traiter et Soumettre les Résultats** : Appliquer le modèle sur l'ensemble de test et soumettre les résultats.
-
-## Installation
-Pour installer les outils nécessaires, suivez les instructions données dans le fichier.
-
-## Contribution
-Toute contribution pour améliorer le projet est la bienvenue.
-
-## Licence
-Ce projet est soumis à une licence spécifique. Veuillez consulter le fichier de licence pour plus d'informations.
-
