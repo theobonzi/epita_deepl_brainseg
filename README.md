@@ -22,3 +22,18 @@ Pour atteindre cet objectif, j'utilise le réseau de neurones [U-Net](https://pa
 2. **Préparer les Données** : Organiser les données pour le traitement.
 3. **Construire et Entraîner le Modèle** : Développer un modèle pour la segmentation.
 4. **Traiter et Soumettre les Résultats** : Appliquer le modèle sur l'ensemble de test et soumettre les résultats.
+
+## Pour aller plus loin
+
+### Amélioration de la Précision de Segmentation
+Nous pouvons envisager plusieurs stratégies pour augmenter la précision de notre segmentation des scans IRM 3D :
+
+1. **Système de Vote pour Chaque Pixel** :
+   - Pour chaque pixel, nous examinons sa prédiction dans les trois tranches de l'image IRM 3D.
+   - Un système de vote est utilisé pour déterminer la classe finale du pixel, en se basant sur la majorité des prédictions obtenues pour les différentes tranches.
+   - Cette approche vise à exploiter les informations 3D disponibles dans les scans IRM.
+
+2. **Analyse des Pixels Voisins** :
+   - Pour accroître la précision, nous pouvons considérer les pixels voisins d'un pixel donné.
+   - L'hypothèse est qu'un pixel a une forte probabilité d'appartenir à la même classe que la majorité de ses voisins.
+   - Cette stratégie permet d'intégrer le contexte local et de réduire les erreurs de segmentation, notamment dans les zones où les structures cérébrales sont étroitement entrelacées.
