@@ -10,6 +10,9 @@ Ce projet porte sur la segmentation des structures cérébrales fondamentales da
 ## Objectif
 Développer un système capable de segmenter avec précision les images IRM en identifiant différentes parties du cerveau, une tâche importante pour comprendre le développement cérébral chez les jeunes enfants.
 
+## Approche de Segmentation
+Pour atteindre cet objectif, j'utilise le réseau de neurones U-Net, une architecture profonde spécialement conçue pour la segmentation d'images médicales.
+
 ## Données
 - **Ensemble d'entraînement** : Comprend des scans IRM avec des annotations manuelles.
 - **Ensemble de test** : Contient des scans IRM à segmenter, sans annotations.
